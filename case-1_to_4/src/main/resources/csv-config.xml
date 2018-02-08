@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CSVConfig>
+    <mappingFiles fileType="resource">
+        <mappingFile>/com/paazl/cases/test4/TestData.csv.xml</mappingFile>
+    </mappingFiles>
+</CSVConfig>

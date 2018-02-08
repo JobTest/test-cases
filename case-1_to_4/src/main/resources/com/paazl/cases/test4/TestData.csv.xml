@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CSVMapping className="com.paazl.cases.test4.TestData"
+            csvFile="src/main/resources/com/paazl/cases/test4/testdata.csv"
+            delimiter=";"
+            ignoreFirstLine="true">
+    <matchAll/>
+    <properties>
+        <property index="0" property="name" primaryKey="true"/>
+        <property index="1" property="city"/>
+        <property index="2" property="country"/>
+        <property index="3" property="number"/>
+        <property index="4" property="date" converter="myDateConverter"/>
+    </properties>
+    <converters>
+        <dateConverter converterName="myDateConverter" format="dd/MM/yyyy"/>
+    </converters>
+</CSVMapping>

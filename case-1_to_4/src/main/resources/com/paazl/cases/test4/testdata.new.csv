@@ -1,0 +1,5 @@
+city;country;date;name;number
+Amsterdam;NL;Fri Aug 01 00:00:00 EEST 2014;Piet;1
+London;UK;Wed Jan 01 00:00:00 EET 2014;Henk;2
+Utrecht;NL;Fri Jul 25 00:00:00 EEST 2014;Harm;3
+Amsterdam;NL;Fri Jul 25 00:00:00 EEST 2014;Frits;4
